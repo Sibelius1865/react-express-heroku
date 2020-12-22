@@ -16,7 +16,7 @@ class App extends Component {
       <div>
         <ul>
           {this.state.cities.map(city => {
-            return <li key={city.name}> <b>{city.name}</b>: {city.population}</li>
+            return <li key={city.name}> <b>{city.name}_pop</b>: {city.population}</li>
           })}
         </ul>
       </div>
